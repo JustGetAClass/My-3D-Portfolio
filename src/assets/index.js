@@ -25,6 +25,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import microsoft from "./company/microsoft.png";
+import freelance from "./company/freelancer.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +61,6 @@ export {
   jobit,
   tripguide,
   mylogo,
+  microsoft,
+  freelance,
 };
