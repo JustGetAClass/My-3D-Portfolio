@@ -31,6 +31,9 @@ import freelance from "./company/freelancer.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import gericht from "./gericht.png"
+import gpt3 from "./gpt3.png"
+import hoo from "./hoo.png"
 
 export {
   backend,
@@ -63,4 +66,7 @@ export {
   mylogo,
   microsoft,
   freelance,
+  gericht,
+  gpt3,
+  hoo
 };

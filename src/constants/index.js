@@ -15,12 +15,12 @@ import {
   git,
   figma,
   // docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   microsoft,
   freelance,
+  gericht,
+  gpt3,
+  hoo
 } from "../assets";
 
 export const navLinks = [
@@ -170,67 +170,57 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Gericht Restaurant",
+    description: "Fully Responsive Modern React GPT3 UI/UX Restaurant App",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react-icons",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gericht,
+    source_code_link: "https://github.com/JustGetAClass/Gericht",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "GPT3",
+    description: "Fully Responsive Website with modern React UI/UX",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "react-icons",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: gpt3,
+    source_code_link: "https://github.com/JustGetAClass/GPT3/",
   },
   {
-    name: "Trip Guide",
+    name: "HooBank",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Fully Responsive Bank Website with modern React UI/UX with TailwindCSS",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react-icons",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hoo,
+    source_code_link: "https://github.com/JustGetAClass/HooBank",
   },
 ];
 
