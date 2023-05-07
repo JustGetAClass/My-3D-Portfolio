@@ -20,7 +20,7 @@ import {
   freelance,
   gericht,
   gpt3,
-  hoo
+  hoo,
 } from "../assets";
 
 export const navLinks = [
@@ -144,27 +144,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working alongside Mohamed during our time at Microsoft, I witnessed their exceptional technical abilities, strong work ethic, and collaborative spirit in delivering successful software projects.",
+    name: "Sayed Omari",
+    designation: "Co-Worker",
+    company: "Microsoft 21st Century Skills Lab AppFactory",
+    image: "https://randomuser.me/api/portraits/men/2.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Mohamed has consistently demonstrated a passion for software engineering, a strong aptitude for problem-solving, and a commitment to producing high-quality work that has made them a pleasure to mentor.",
+    name: "Sebastian",
+    designation: "Mentor",
+    company: "Microsoft 21st Century Skills Lab AppFactory",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    "I had the pleasure of working closely with Mohamed on numerous projects, and I can attest to their excellent teamwork skills, creative problem-solving abilities, and dedication to achieving outstanding results.",
+    name: "Lisa Mwikali",
+    designation: "Co-Worker",
+    company: "Microsoft 21st Century Skills Lab AppFactory",
+    image: "https://media.licdn.com/dms/image/D4E03AQFFdDmnaxCupA/profile-displayphoto-shrink_200_200/0/1680004075227?e=1689206400&v=beta&t=YMtBVmb2-XXqft4T1nfqjR3pPXJslfhjNa_vJbXkZjw",
   },
 ];
 
