@@ -6,6 +6,7 @@ import { styles } from "../style";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import resume from "../assets/resume.pdf";
 
 const SERVICE_KEY = import.meta.env.VITE_APP_SERVICE_KEY;
 const TEMPLATE_KEY = import.meta.env.VITE_APP_TEMPLATE_KEY;
@@ -116,13 +117,21 @@ const Contact = () => {
               className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white outline-none placeholder:text-secondary"
             />
           </label>
-
-          <button
-            type="submit"
-            className="w-fit rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className=" flex flex-row items-center justify-evenly">
+            <button
+              type="submit"
+              className="w-fit rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+            <a
+              href={resume}
+              download="Resume"
+              className=" rounded-xl bg-green-500 px-8 py-3 hover:bg-green-700"
+            >
+              Download Resume
+            </a>
+          </div>
         </form>
       </motion.div>
 
